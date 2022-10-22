@@ -1,0 +1,144 @@
+.container {
+    display: grid;
+    margin-top: 2em;
+    grid-template-columns: 25% 25%;
+    grid-column-gap: 2%;
+    grid-template-rows: 25% 25% 25% 25%;
+    row-gap: 0;
+    contain:layout;
+
+}
+
+.vl {
+    grid-column-start: 2;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 4;
+
+    border-left: 1pt solid #d584e3;
+    height: 1190px;    
+    margin-left: 3em;    
+}
+
+.photo {
+    grid-column-start: 1;
+    grid-column-end: 1;
+    grid-row-start: 1;
+    grid-row-end:1;
+
+    margin-left: 7em;
+
+}
+
+.name {
+    grid-column-start: 3;
+    margin-left: -16em;
+}
+
+.contact {
+    grid-column-start: 1;
+    grid-column-end: 1;
+    grid-row-start: 2;
+    grid-row-end: 2;
+
+    margin-top: -2em;
+}
+
+.contact ul{
+    text-align: right;
+    list-style-type: none;
+    font-family: Work Sans;
+    font-size: 10pt;      
+}
+
+ul {
+    font-size: 11pt;
+}
+
+.contact ul li::first-letter {
+    font-weight: bold;
+}
+
+.education {
+    grid-column-start: 1;
+    grid-column-end: 1;
+    grid-row-start: 3;
+    grid-row-end: 3; 
+
+    text-align: right;
+
+    font-family: Work Sans;
+
+    margin-top: -15em;
+}
+.education ul {
+    grid-column-start: 1;
+    grid-column-end: 1;
+    grid-row-start: 3;
+    grid-row-end: 3;
+
+    text-align: right;
+
+    list-style-type: none;
+}
+
+.skills {
+    grid-column-start: 1;
+    grid-column-end: 1;
+    grid-row-start: 4;
+    grid-row-end: 4; 
+
+    text-align: right;
+    font-family: Work Sans;
+
+    margin-top: -17em;
+}
+
+.skills ul {
+    grid-column-start: 1;
+    grid-column-end: 1;
+    grid-row-start: 4;
+    grid-row-end: 4;
+
+    text-align: right;
+    list-style-type: none;
+
+}
+
+.experience {
+    grid-column-start: 2;
+    grid-column-end: 4;
+    grid-row-start: 2;
+    grid-row-end: 4;
+
+    font-family: Work Sans;
+
+    margin-top: -11em;
+    margin-left: 7.5em;
+}
+
+
+h1 {
+    font-weight: bold;
+    font-size: 75px;
+    margin-top: 30px;
+    font-family: Mixta Sharp;
+}
+
+
+h2 {
+    color:#bf87bb;
+    
+}
+
+h3 {
+    font-size: 12pt;
+}
+
+h5 {
+    margin:0;
+    padding:0;
+    font-size: 11pt;
+}
+
+
